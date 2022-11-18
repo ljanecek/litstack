@@ -7,6 +7,20 @@
         "test": "rm -rf vendor/orchestra && composer install && php tests/install && vendor/bin/phpunit",
         "fix": "vendor/bin/php-cs-fixer fix --allow-risky=yes --config=fixer/.php_cs"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "litstack/lang",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/ljanecek/lang.git",
+                    "type": "git",
+                    "reference": "patch-1"
+                }
+            }
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "litstack/lang": "^3.0.4",
