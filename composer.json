@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "litstack/lang": "^3.0.4",
+        "litstack/lang": "master",
         "erusev/parsedown-extra": "^0.8",
         "spatie/laravel-permission": "^2.0|^3.0|^4.0|^5.0",
         "astrotomic/laravel-translatable": "^11.0",
